@@ -1,0 +1,611 @@
+
+body{
+  background-image: url("yellowbird1.jpg");
+
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover; 
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  width: cover;
+  min-height: 180px;
+  margin: 50px 14px 0px;
+  position: relative;
+}
+
+
+
+#log{
+  position: absolute;
+  top: 15px;
+  left:45px;
+}
+
+#hd1{
+position: absolute;
+top: 14px;
+left: 256px;
+
+}
+#hd2{
+position: absolute;
+top: 60px;
+left: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  font-family: Arial Narrow, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  outline: none;
+  color: #dbed00;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+   bottom: 0px;
+  left: 28px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+   background-color: #dbed00;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-family: Arial Narrow, Helvetica, sans-serif;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #68e36e;}
+
+.show {display: block;}
+
+.wat{
+  position: absolute;
+  top: 45px;
+  right: 464px;
+}
+.num{
+  position: absolute;
+  top: 30px;
+  right: 311px;
+}
+#nav{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+
+li{
+  display: inline;
+  float: right;
+  padding: 0px 20px 9px;
+}
+li a{
+  display: block;
+  padding: 6px;
+  font-size: 14pt;
+  color: white;
+  text-decoration:none;
+  font-family: Arial Narrow, Helvetica, sans-serif;
+}
+
+li a:hover, li a:focus {
+  color: #dbed00;
+}
+#but{
+  
+  position: absolute;
+  right: 35px;
+  top: 45px;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.button:hover{
+  color: blue;
+  text-decoration:underline; 
+}
+.slidebanner {
+  margin:0px 14px 28px;
+   }
+
+.mySlides {display:none;
+  height: 500px;
+ }
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+ .info{
+  background-color: white;
+  display: flex;
+  margin:0px 14px 18px;
+  width: cover;
+ 
+    padding: 8px;
+    box-sizing: border-box;
+    flex-direction: row;
+ }
+@media screen and (max-width: 768px){
+      .info{
+        flex-direction: column;
+      }
+    }
+
+#imgleft{
+flex: 1;
+background: green;
+margin: 8px;
+
+}
+#infoleft{
+  flex: 2;
+  margin: 6px;
+  
+}
+#datapic{
+  width: 100%;
+  height: 100%;
+}
+
+#load{
+    width:100%;
+    height:100%;
+   
+}
+
+
+#divexpertise{
+      max-width: cover;
+      height: 80px;
+      background: #2f751d;
+      margin:0px  14px 0px;
+    }
+    #expertise{
+      font-size: 30px;
+      font-family: Georgia, serif;
+      text-align: center;
+      padding: 20px 0px 10px;
+      color: white;
+    }
+
+     
+  .holdingcontainer{
+      width: cover;
+      margin: 0px 14px 18px;
+      display: flex;
+      background: #406618;
+      padding:20px;
+      box-sizing: border-box;
+      flex-direction: row;
+      color: white;
+    }
+    
+
+    .internalcontainerL{
+      flex: 1;
+      background: #2f751d;
+      padding: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      margin: 8px;
+   
+      }
+
+    .internalcontainerM{
+      flex: 1;
+      background: #2f751d;
+      padding: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      margin: 8px;
+
+      
+    }
+
+    .internalcontainerR{
+      flex: 1;
+      background: #2f751d;
+      padding: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      margin: 8px;
+      
+    }
+    
+    .internalcontainerR2{
+      flex: 1;
+      background: #2f751d;
+      padding: 30px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif;
+      margin: 8px;
+      
+    }
+
+    .dasimages{
+      margin-bottom: 7px;
+    }
+    @media screen and (max-width: 768px){
+      .holdingcontainer{
+        flex-direction: column-reverse;
+      }
+    }
+
+.holdingwhite{
+      width: cover;
+      display: flex;
+      padding:5px;
+      box-sizing: border-box;
+      flex-direction: row;
+      margin:0px 14px 0px;
+     background:white;
+     border-radius: 4px;
+    }
+    
+
+    .internalwhiteL{
+      flex: 1;
+      border-right: 1px dashed black;
+      padding: 15px 15px 15px;
+      font-size: 18px;
+      font-family: Arial Narrow, Helvetica, sans-serif;
+      margin: 6px;
+      color: black;
+      line-height: 1.4;
+      opacity: 0.9;
+      text-align: center;
+    }
+    .fish{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    }
+
+    .internalwhiteM{
+      flex: 1;
+      border-right: 1px dashed black;
+      padding: 15px 15px 15px;
+      font-size: 18px;
+      font-family: Arial Narrow, Helvetica, sans-serif;
+      margin: 6px;
+      color: black;
+      text-align: center;
+      opacity: 0.9;
+      line-height: 1.4;
+    }
+.hen{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+    .internalwhiteR{
+      flex: 1;
+      padding: 15px 15px 15px;
+      font-size: 18px;
+      font-family: Arial Narrow, Helvetica, sans-serif;
+      margin: 6px;
+      color: black;
+       text-align: center;
+      opacity: 0.9;
+      line-height: 1.4;
+      }
+  .quality{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+    @media screen and (max-width: 768px){
+      .holdingwhite{
+        flex-direction: column-reverse;
+      }
+    }
+@media screen and (max-width: 768px){
+      .internalwhiteL{
+        border-right: none;
+        
+      }
+    }
+    @media screen and (max-width: 768px){
+      .internalwhiteM{
+        border-right: none;
+        border-bottom:1px dashed black;
+      }
+    }
+    @media screen and (max-width: 768px){
+      .internalwhiteR{
+        border-bottom: 1px dashed black;
+      }
+    }
+.footer2{
+  position: relative;
+  background :#406618;
+  color: red;
+  min-height: 480px;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 0px ;
+    margin: 0px;
+   
+}
+
+.form1container{
+
+  min-height: 180px;
+  background: #2f751d;
+}
+#divfill{
+top: 15px;
+left: 30px;
+position: absolute;
+font-family:Adobe Fangsong Std R, sans-serif; 
+font-size: 18px;
+color: white;
+
+}
+.fname{
+  width: 160px;
+  padding: 8px 0px;
+  margin: 8px 1px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.form3{
+  display:inline-block; 
+    
+    }
+.form3container{
+    top: 55px;
+    left: 30px;
+    position: absolute;
+   }
+#sub{
+ width: 70px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 1px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+::placeholder{
+  font-family: Arial Narrow, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-left: 7px;
+}
+#baba{
+  position: absolute;
+  right: 550px;
+  top: 45px;
+  border-left: 1px dashed #ddd;
+  padding:12px 12px;
+  padding-left: 40px;
+}
+
+#testi{
+  position: absolute;
+  right: 20px;
+  top: 35px;
+}
+
+#log2{
+  position: absolute;
+  bottom: 120px;
+  left: 108px;
+}
+#wat2{
+position: absolute;
+bottom: 40px;
+left: 63px;
+}
+
+#num2{
+
+  position: absolute;
+  bottom: 25px;
+  left: 115px;
+}
+
+#plink{
+
+  position: absolute;
+  bottom: 215px;
+  left: 375px;
+  border-bottom: 1px dashed #ddd;
+    padding-right: 200px;
+    text-align: center;
+}
+#plink2{
+    position: absolute;
+  bottom: 215px;
+  right: 420px;
+  border-bottom: 1px dashed #ddd;
+    padding-right: 150px;
+    text-align: center;
+
+}
+#plink3{
+  position: absolute;
+  bottom: 12px;
+  right: 274px;
+text-align: left;
+font-size: 18px;
+}
+
+.plink{
+  font-size: 18px;
+  font-family: Adobe Fangsong Std R, sans-serif;
+  
+}
+
+table {
+  border-collapse: collapse;
+  font-family: Agency FB, sans-serif;
+  font-size: 18px;
+}
+
+ td.left1{
+  border-right : 1px dashed  #ddd;
+  }
+
+  td{
+    text-align: left;
+    padding:3px 20px 3px;
+  }
+
+td:hover {
+  color:#68e36e;
+    cursor: pointer;
+   }
+
+.infotable{
+  position: absolute;
+  bottom: 40px;
+  left: 390px;
+}
+
+.footer1{
+  background:#263d0e;
+  color: red;
+  height: 50px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#abt{
+color: #3e7249;
+font-size: 34px;
+font-family: : Georgia, serif;
+margin-left: 5px;
+margin-bottom:5px;
+ }
+
+#abt2{
+  color: #4db051;
+  font-size: 22px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  
+}
+#abt3{
+ 
+  line-height: 1.45;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  margin:0px 5px 0px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+#soclogo{
+  position: absolute;
+  bottom: 50px;
+  right: 65px;
+}
+
